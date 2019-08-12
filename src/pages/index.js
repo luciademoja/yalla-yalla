@@ -26,7 +26,7 @@ const IndexPage = () => {
         Vår specialitet är bland annat Grekiska, Turkiska och Libanesiska maträtter.
         Vi finns på tredje Långgatan 29.
       </p>
-      <div>
+      <div style={{ minWidth: '0', minHeight: '0'}}>
         <Carousel autoplay>
           <div>
             <Image />
@@ -48,8 +48,17 @@ const IndexPage = () => {
         <TabPane tab="Huvudrätter" key="2">
           <Menu menu={mainCourses}/>
         </TabPane>
-        <TabPane tab="Fiskrätter" key="2">
+        <TabPane tab="Fiskrätter" key="3">
           <Menu menu={fish}/>
+        </TabPane>
+        <TabPane tab="Vegetariska rätter" key="4">
+          <Menu menu={vegetarian}/>
+        </TabPane>
+        <TabPane tab="Barnmeny" key="5">
+          <Menu menu={kids}/>
+        </TabPane>
+        <TabPane tab="Medelhavs dessert" key="6">
+          <Menu menu={desserts}/>
         </TabPane>
       </Tabs>
       <div style={{ fontSize: `12px` }}>Icons made by
