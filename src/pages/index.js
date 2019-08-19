@@ -1,5 +1,5 @@
 import React from "react"
-import { Carousel, Tabs } from 'antd';
+import { Carousel, Tabs, Button, Card } from 'antd';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -21,11 +21,14 @@ const IndexPage = () => {
       <SEO title="Home"/>
       <h1>Meze kök och bar</h1>
       <p>Välkommen!</p>
-      <p>
-        Vi serverar medelhavets godaste maträtter.
-        Vår specialitet är bland annat Grekiska, Turkiska och Libanesiska maträtter.
-        Vi finns på tredje Långgatan 29.
-      </p>
+      <Card title="Beställ online!">
+        <p>
+          Psst! Visste du att du kan beställa de godaste maträtterna från medelhavet SNABBT, ENKELT och ONLINE?
+          Tryck på en av knapparna nedan för att komma åt vår online beställning system!
+        </p>
+        <Button type="primary" shape="round" size="large" href={'https://secure.paidit.se/yallayalla?takeaway=false'}>Äta här!</Button>
+        <Button type="primary" shape="round" size="large" href={'https://secure.paidit.se/yallayalla?takeaway=true'}>Takeaway!</Button>
+      </Card>
       <div style={{ minWidth: '0', minHeight: '0'}}>
         <Carousel autoplay>
           <div>
