@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Navbar from "../../src/components/navbar"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -14,6 +15,9 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
+        display: 'flex',
+        fontFamily: 'georgia, serif',
+        justifyContent: 'space-between',
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -24,9 +28,10 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+         Välkommen!
         </Link>
       </h1>
+      <Navbar/>
     </div>
   </header>
 )

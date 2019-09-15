@@ -1,7 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Yalla Yalla`,
-    description: `Meze kök och bar`,
+    title: `Yalla Yalla - Meze kök och bar`,
     author: `@luciademoja`,
   },
   plugins: [
