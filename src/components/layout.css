@@ -634,3 +634,29 @@ pre tt:after {
 .ant-list-item-meta-title {
   border-bottom: 1px solid;
 }
+
+.paidit {
+  margin: auto;
+}
+
+.ant-card-body {
+  display: flex;
+}
+
+.card-content {
+  width: 57%;
+  margin: auto;
+}
+
+.ant-carousel {
+  max-width: 300px;
+  border: 1px solid purple;
+  border-radius: 5px;
+  background: black;
+}
+
+.carousel-image {
+  max-width: 300px;
+  padding: 2%;
+  margin: auto;
+}

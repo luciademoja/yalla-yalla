@@ -1,13 +1,11 @@
-import { Menu, Icon } from 'antd';
+import { Menu } from 'antd';
 import React, { Component } from "react"
-
-const { SubMenu } = Menu;
 
 export class Navbar extends Component {
 
   state = {
-    current: 'bar',
-  };
+    current: ''
+  }
 
   handleClick = e => {
     console.log('click ', e);
