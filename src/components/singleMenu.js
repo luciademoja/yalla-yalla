@@ -1,7 +1,7 @@
 import React from "react";
 import { List } from 'antd';
 
-const Menu = ({ menu }) => {
+const SingleMenu = ({ menu }) => {
   return (
     <div>
       <List
@@ -20,4 +20,4 @@ const Menu = ({ menu }) => {
   )
 }
 
-export default Menu;
+export default SingleMenu;

@@ -28,7 +28,7 @@ const Header = () => (
             textDecoration: `none`,
           }}
         >
-         Välkommen!
+         Yalla Yalla
         </Link>
       </h1>
       <Navbar/>
