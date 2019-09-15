@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import Navbar from "../../src/components/navbar"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header
     style={{
       background: `rebeccapurple`,

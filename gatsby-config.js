@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Yalla Yalla - Meze kök och bar`,
+    description: 'Medelhavets godaste maträtter',
     author: `@luciademoja`,
   },
   plugins: [
@@ -23,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/cocktail.svg`, // This path is relative to the root of the site.
+        icon: `src/logos/cocktail.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
