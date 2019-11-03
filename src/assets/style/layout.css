@@ -730,6 +730,11 @@ pre tt:after {
   font-size: 20px;
 }
 
+.ant-tabs-tab, .ant-tabs-tab-active {
+  color: white !important;
+  border-color: white !important;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
