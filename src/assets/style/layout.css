@@ -659,7 +659,7 @@ pre tt:after {
 }
 
 .ant-carousel {
-  max-width: 500px;
+  min-width: 800px;
   border: 2px solid black;
   border-radius: 5px;
   background: black;
@@ -674,7 +674,7 @@ pre tt:after {
 }
 
 .carousel-image {
-  max-width: 500px;
+  min-width: 800px;
   padding: 2%;
   margin: auto;
 }
@@ -689,8 +689,8 @@ pre tt:after {
   padding: 20px 48px !important;
   font-size: 35px !important;
   border-radius: 40px !important;
-  background: darkred;
-  border-color: black;
+  background: darkred !important;
+  border-color: black !important;
 }
 
 .ant-menu-item > a {
@@ -703,6 +703,7 @@ pre tt:after {
 
 .ant-menu-item {
   background: transparent !important;
+  border-bottom: 2px solid white !important;;
 }
 
 .ant-tabs-tab-active {
@@ -744,6 +745,11 @@ pre tt:after {
 
   .ant-menu {
     font-size: 18px !important;
+  }
+
+  .ant-carousel, .carousel-image {
+    min-width: 0;
+    max-width: 300px;
   }
 
 }                                            
