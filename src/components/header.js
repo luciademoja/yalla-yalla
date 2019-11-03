@@ -26,8 +26,8 @@ const Header = () => (
          Yalla Yalla
         </Link>
       </h1>
-      <Navbar/>
     </div>
+    <Navbar/>
   </header>
 )
 
