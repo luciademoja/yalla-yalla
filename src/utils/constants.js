@@ -261,3 +261,244 @@ export const desserts = [
   }
 ];
 
+export const cans = [
+  {
+    name: 'Ayran',
+    price: '30:-'
+  },
+  {
+    name: 'Cola',
+    price: '30:-'
+  },
+  {
+    name: 'Cola light',
+    price: '30:-'
+  },
+  {
+    name: 'Fanta',
+    price: '30:-'
+  },
+  {
+    name: 'Sprite',
+    price: '30:-'
+  },
+  {
+    name: 'Mineralvatten',
+    price: '30:-'
+  },
+  {
+    name: 'Apelsinjuice',
+    price: '30:-'
+  },
+  {
+    name: 'Vatten',
+    price: '10:-'
+  }
+];
+
+export const beer = [
+  {
+    name: 'Spendrups',
+    description: 'Lättöl, 33cl',
+    price: '39:-'
+  },
+  {
+    name: 'Alkoholfri Öl',
+    description: '33cl',
+    price: '39:-'
+  },
+  {
+    name: 'Carlsberg Hof',
+    description: '33cl',
+    price: '49:-'
+  },
+  {
+    name: 'Newcastle Brown Ale',
+    description: '33cl',
+    price: '55:-'
+  },
+  {
+    name: 'Mariestads Export',
+    description: '50cl',
+    price: '65:-'
+  },
+  {
+    name: 'Mariestads Dunkel',
+    description: 'Mörk öl, 50cl',
+    price: '65:-'
+  },
+  {
+    name: 'Mythos',
+    description: 'Grekisk öl, 50cl',
+    price: '69:-'
+  },
+  {
+    name: 'EFES',
+    description: 'Turkisk öl, 50cl',
+    price: '69:-'
+  },
+  {
+    name: 'Päroncider',
+    description: 'Briska, 33cl',
+    price: '55:-'
+  }
+];
+
+export const redWine = [
+  {
+    name: 'Tocornal Cabernet Sauvignon (Husets röda, Chile)',
+    description: 'Yppig, varm doft med inslag av svarta vinbär, blåbär och körsbär. Medelfylligt, ganska mjukt vin med behaglig fruktighet. Eftersmak av mörka bär. Allroundvin till lättare kötträtter, mustiga pastarätter och smakrik pizza.',
+    price: '79:- glas / 349:- flaska'
+  },
+  {
+    name: 'Clos St. Alphonse (Libanesiskt vin)',
+    description: 'Aromatisk, blommig doft av röda frukter. Smak av körsbär och röda frukter med en liten kryddig ton. Runda och mjuka tanniner.',
+    price: '89:- glas / 399:- flaska'
+  },
+  {
+    name: 'Chateau Ksara Réserve Du Couvent (Libanesiskt vin)',
+    description: 'Torrt, medelfylligt vin med fruktig och kryddig doft med inslag av fat, mörka bär och slånbär. Vinet är fruktig och frisk med toner av svarta vinbär, körsbär, choklad och slånbär. Passar till meze rätter, kyckling och kött.',
+    price: '499:-'
+  },
+  {
+    name: 'Rib Shack Red (Sydafrika,  Western Cape)',
+    description: 'Fylligt och kraftigt med massor av smak av björnbär, mörka plommon, choklad och kaffe. Det har en stor fruktig doft med solmogna mörka bär, kaffe och inslag av den typiska sydafrikanska rökiga karaktären. Passar till grillat kött.',
+    price: '349:-'
+  },
+  {
+    name: 'Torre Del Falasco Valpolicella Ripasso (Italien,  Veneto)',
+    description: 'Medelfylligt vin med smak av mörk frukt, choklad och lite mandel. Vinet har silkiga tanniner och lång aningens het eftersmak. Passar till grillat kött.',
+    price: '349:-'
+  },
+  {
+    name: 'Riddle Creek Shiraz (Australiskt vin)',
+    description: 'Frisk, kryddig doft med inslag av röda bär och plommon. Mjukt, medelfylligt och fruktig smak av röda bär och angenäm läng. Passar utmärkt till grytor och rätter av lamm- eller nötkött.',
+    price: '399:-'
+  }
+];
+
+export const whiteWine = [
+  {
+    name: 'Tocornal Cabernet Sauvignon (Husets vita, Chile)',
+    description: 'Medelstor doft med inslag av citrus, mandel och fräsch grönska. Torrt, medelfylligt vin med bra friskhet och inslag av tropisk frukt och citrus (citronskal, grapefrukt). Drink till lätt tilltugg, till lätta fisk- och skaldjursrätter, sallad med tonfisk eller kyckling. Och varförinte till räkfrossan?',
+    price: '79:- glas / 349:- flaska'
+  },
+  {
+    name: 'Chateau Ksara Merwah (Libanesiskt vin)',
+    description: 'Välbalanserad syra och ton av nässlor och citrus. Passar till rätter med stekt eller grillad fisk samt skaldjur, kyckling och sallader.',
+    price: '89:- glas / 399:- flaska'
+  },
+  {
+    name: 'Château Ksara Blanc De Blancs (Libanesiskt vin)',
+    description: 'Stor kryddig doft med toner av citrus, färska örter och fat. Smaken är torr och medelfyllig med inslag av citrus, valnötter, lakritsrot och fat. Lång eftersmak.  Passar till förrätter och fiskrätter.',
+    price: '399:-'
+  },
+  {
+    name: 'Riddle Creek Chardonnay (Australiskt vin)',
+    description: 'Medelstor, frisk, torr aromatisk  smak av krusbär, svartvinbärsblad, nässlor, mineral, örter  och grapefrukt. Passar till fiskrätter och förrätter.',
+    price: '399:-'
+  }
+];
+
+export const roseWine = [
+  {
+    name: 'Cono Sur Bícicleta Pinot Noir Rosé (Chile)',
+    description: 'Ett ganska lätt och friskt rosévin med fruktiga toner av körsbär, hallon och svala jordgubbar. Det har en fräsch, sval, angenäm  doft av kylda jordgubbar och hallon. Det passar till småplock, kyckling och sallader.',
+    price: '79:- glas / 349:- flaska'
+  }
+];
+
+export const sparklingWine = [
+  {
+    name: 'Vilarnau Cava',
+    description: 'Fruktig smak med inslag av gröna äpplen, kex, nougat, grapefrukt och päron. Serveras vid 8-10°C som aperitif eller till rätter av fisk och skaldjur.',
+    price: '79:- glas / 349:- flaska'
+  }
+];
+
+export const drinks = [
+  {
+    name: 'Cosmopolitan',
+    description: 'Citron vodka, Cointreau, lime & tranbärsjuice. 6cl',
+    price: '92:- '
+  },
+  {
+    name: 'White Lady',
+    description: 'Gin, Cointreau, lime & sourmix. 6cl',
+    price: '92:- '
+  },
+  {
+    name: 'Seabreeze',
+    description: 'Vodka, tranbärsjuice & grapejuice. 6cl',
+    price: '92:- '
+  },
+  {
+    name: 'Peach Passion',
+    description: 'Peach tree, Bacardi Limón & Sprite. 6cl',
+    price: '92:- '
+  },
+  {
+    name: 'Passion of Apple',
+    description: 'Vanilj Vodka, Sours Apple, Peach tree & Sprite. 6cl',
+    price: '92:- '
+  },
+  {
+    name: 'White Russian',
+    description: 'Vodka, Kahlua & mjölk. 6cl',
+    price: '92:- '
+  }
+];
+
+export const coffeeDrinks = [
+  {
+    name: 'Kaffe Kask',
+    description: 'Kaffe, vodka & grädde.',
+    price: '78:- ',
+    otherPrice: '92:-',
+  },
+  {
+    name: 'French Coffee',
+    description: 'Kaffe, cointreau & grädde.',
+    price: '78:- ',
+    otherPrice: '92:- ',
+  },
+  {
+    name: 'Irish Coffee',
+    description: 'Kaffe, Jameson, farinsocker & grädde.',
+    price: '78:- ',
+    otherPrice: '92:- ',
+  },
+  {
+    name: 'Kaffe Karlsson',
+    description: 'Kaffe, Baileys, Cointreau & grädde.',
+    price: '78:- ',
+    otherPrice: '92:- ',
+  },
+];
+
+export const coffee = [
+  {
+    name: 'Libanesiskt kaffe',
+    price: '38:- ',
+  },
+  {
+    name: 'Svenskt kaffe',
+    price: '30:- ',
+  },
+  {
+    name: 'Kaffe Latte',
+    price: '35:- ',
+  },
+  {
+    name: 'Cappuccino',
+    price: '35:- ',
+  },
+  {
+    name: 'Dubbel Espresso',
+    price: '35:- ',
+  },
+  {
+    name: 'Te i lösvikt',
+    price: '35:- ',
+  },
+];

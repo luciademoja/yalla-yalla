@@ -1,14 +1,11 @@
 import React from "react"
-import { Tabs, Button, Card } from 'antd';
+import { Button, Card } from 'antd';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Images from "../components/images"
 
 const IndexPage = () => {
-
-  const { TabPane } = Tabs;
-
   return(
     <Layout>
       <SEO title="Home"/>
@@ -20,13 +17,29 @@ const IndexPage = () => {
       <br/>
       <Card title="Beställ online!" className='paidit'>
         <div className="card-content">
-          <h2>
-            Psst! Visste du att du kan beställa de godaste maträtterna från medelhavet SNABBT, ENKELT och ONLINE?
+          <div>
+            Psst..! Visste du att du kan beställa de godaste maträtterna från medelhavet SNABBT, ENKELT och ONLINE?
             Tryck på en av knapparna nedan för att komma åt vår online beställning system!
-          </h2>
+          </div>
           <div className="paidit-buttons">
-            <Button target="_blank" type="primary" shape="round" size="large" href={'https://secure.paidit.se/yallayalla?takeaway=false'}>Ät här!</Button>
-            <Button target="_blank" type="primary" shape="round" size="large" href={'https://secure.paidit.se/yallayalla?takeaway=true'}>Takeaway!</Button>
+            <Button
+              className="paidit-button"
+              target="_blank"
+              type="primary"
+              shape="round"
+              size="large"
+              href={'https://secure.paidit.se/yallayalla?takeaway=false'}
+            >Ät här!
+            </Button>
+            <Button
+              className="paidit-button"
+              target="_blank"
+              type="primary"
+              shape="round"
+              size="large"
+              href={'https://secure.paidit.se/yallayalla?takeaway=true'}
+            >Takeaway!
+            </Button>
           </div>
         </div>
       </Card>
