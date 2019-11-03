@@ -33,7 +33,9 @@ export class Navbar extends Component {
           </a>
         </Menu.Item>
         <Menu.Item key="contact" style={{ color: 'white', fontFamily: 'monospace' }}>
-          Kontakt
+          <Link to="/contacts">
+            Kontakt
+          </Link>
         </Menu.Item>
       </Menu>
     );
