@@ -4,12 +4,7 @@ import React from "react"
 import Navbar from "../../src/components/navbar"
 
 const Header = () => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header className="header">
     <div
       style={{
         margin: `0 auto`,

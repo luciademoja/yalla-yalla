@@ -16,7 +16,7 @@ export class Navbar extends Component {
 
   render() {
     return (
-      <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal" style={{ background: 'rebeccapurple', fontSize: '30px' }}>
+      <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal" style={{ background: 'transparent', fontSize: '30px' }}>
         <Menu.Item key="menu" style={{ color: 'white', fontFamily: 'monospace' }}>
           <Link to="/menu">
             Meny

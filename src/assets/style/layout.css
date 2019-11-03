@@ -619,13 +619,20 @@ pre tt:after {
   min-width: 0;
 }
 
+.header {
+  background: rgb(51,0,0);
+  background: linear-gradient(90deg, rgba(51,0,0,1) 0%, rgba(255,147,49,1) 35%, rgba(179,22,0,1) 100%);
+  margin-bottom: 1.45rem;
+}
+
 .ant-list-item-meta-title {
   border-bottom: 1px solid;
 }
 
 .paidit {
   margin: auto;
-  background: rebeccapurple;
+  background: rgb(51,0,0);
+  background: linear-gradient(90deg, rgba(51,0,0,1) 0%, rgba(255,147,49,1) 35%, rgba(179,22,0,1) 100%);
   color: white !important;
 }
 
@@ -647,7 +654,7 @@ pre tt:after {
 
 .ant-carousel {
   max-width: 500px;
-  border: 2px solid rebeccapurple;
+  border: 2px solid black;
   border-radius: 5px;
   background: black;
   margin: auto;
@@ -676,6 +683,8 @@ pre tt:after {
   padding: 20px 48px !important;
   font-size: 35px !important;
   border-radius: 40px !important;
+  background: darkred;
+  border-color: black;
 }
 
 .ant-menu-item > a {
@@ -683,11 +692,11 @@ pre tt:after {
 }
 
 .ant-menu-submenu > .ant-menu {
-  background: rebeccapurple !important;
+  background: transparent !important;
 }
 
 .ant-menu-item {
-  background: rebeccapurple !important;
+  background: transparent !important;
 }
 
 @media only screen and (max-width: 480px) {
