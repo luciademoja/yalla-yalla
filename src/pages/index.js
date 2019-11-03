@@ -13,8 +13,8 @@ const IndexPage = () => {
         <Card title="Beställ online!" className='paidit'>
           <div className="card-content">
             <div>
-              Psst..! Visste du att du kan beställa de godaste maträtterna från medelhavet SNABBT, ENKELT och ONLINE?
-              Tryck på en av knapparna nedan för att komma åt vår online beställning system!
+              Psst..! Visste du att du kan beställa de godaste maträtterna från medelhavet SNABBT, ENKELT och betala med SWISH?
+              Tryck på en av knapparna nedan för att beställa nu! &#127844;
             </div>
             <div className="paidit-buttons">
               <Button
