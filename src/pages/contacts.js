@@ -1,5 +1,5 @@
 import React from "react"
-import Images from "../components/images"
+import SquareImages from "../components/portraitImages"
 import Layout from "../components/layout"
 
 const Contacts = () => (
@@ -16,7 +16,7 @@ const Contacts = () => (
         <li>Söndag 13:00- 21:00</li>
       </ul>
       <br/>
-      <Images />
+      <SquareImages />
       <br />
       <h4>Ring: <a href="tel:031140084">031 14 00 84</a></h4>
       <h4>Eller maila: <a href="mailto:yalla_yalla@hotmail.se">yalla_yalla@hotmail.se</a></h4>

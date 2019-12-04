@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import SingleMenu from "../components/singleMenu"
 import { cans, beer, redWine, whiteWine, roseWine, sparklingWine, drinks, coffeeDrinks, coffee } from "../utils/constants"
 import { Tabs } from "antd"
+import PortraitImages from "../components/portraitImages"
 
 const { TabPane } = Tabs;
 
@@ -40,6 +41,7 @@ const Menu = () => (
         <SingleMenu menu={coffee}/>
       </TabPane>
     </Tabs>
+    <PortraitImages/>
   </Layout>
 )
 

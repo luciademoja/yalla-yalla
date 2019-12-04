@@ -673,8 +673,11 @@ pre tt:after {
   color: white;
 }
 
+.gatsby-image-wrapper {
+  max-height: 900px;
+}
+
 .carousel-image {
-  min-width: 800px;
   padding: 2%;
   margin: auto;
 }
