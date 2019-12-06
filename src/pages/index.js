@@ -3,7 +3,7 @@ import { Button, Card } from 'antd';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Images from "../components/images"
+import LandscapeImages from "../components/landscapeImages"
 
 const IndexPage = () => {
   return(
@@ -39,7 +39,7 @@ const IndexPage = () => {
           </div>
         </Card>
         <br/>
-        <Images />
+        <LandscapeImages />
       </div>
     </Layout>
   )}
