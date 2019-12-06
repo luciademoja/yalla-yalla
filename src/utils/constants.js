@@ -502,3 +502,55 @@ export const coffee = [
     price: '35:- ',
   },
 ];
+
+export const sundayPrecourse = [
+  {
+    name: 'Feta tiganiti',
+    description: 'Panerad och friterad fetaost serveras med hummus.',
+  },
+  {
+    name: 'Tzatziki',
+    description: 'Vitlöksyoghurt med riven gurka & kryddor.',
+  },
+  {
+    name: 'Vitlöksbröd',
+  },
+];
+
+export const sundayMainCourse = [
+  {
+    name: 'Husets Pepparstek',
+    description: 'Grillad ryggbiff serveras på bädd av wokade grönsaker med grönpepparsås, grillad tomat och råstekt potatis.',
+  },
+  {
+    name: 'Peynirli Kafta',
+    description: 'Oxfärsbiffar fyllda med fetaost serveras med grillat tomat, tzatziki, tomatsås och råstekt vitlökspotatis.',
+  },
+  {
+    name: 'Grillmix',
+    description: 'Grillad kycklingfilé på spett, lamm på spett och kalvfärsbiffar serveras på bädd av wokade grönsaker med tomatsås, grillad tomat, tzatziki och vitlökspotatis eller ris.',
+  },
+  {
+    name: 'Fiskgratäng',
+    description: 'Med räkor, sparris, dill och pommes duchesse.',
+  },
+  {
+    name: 'Yakhne',
+    description: 'Wokad kycklingfilé med lök, paprika, champinjoner, vitlök, lite stark tomatsås och tzatziki. Serveras med Libanesiskt ris eller råstekt potatis.',
+  },
+  {
+    name: 'Vegetarisk Moussaka',
+    description: 'Grekisk nationalrätt.',
+  },
+];
+
+export const sundayDessert = [
+  {
+    name: 'Vaniljglass',
+    description: 'Serveras med grädde och chokladsås.',
+  },
+  {
+    name: 'Gemar',
+    description: 'Hemlagad yogurt. Serveras med frukt och honung.',
+  },
+];

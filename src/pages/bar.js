@@ -11,7 +11,7 @@ const { TabPane } = Tabs;
 
 const Menu = () => (
   <Layout>
-    <SEO title="Menu yalla yalla" />
+    <SEO title="Bar yalla yalla" />
     <Tabs defaultActiveKey="1">
       <TabPane tab="Drycker" key="1">
         <SingleMenu menu={cans}/>
