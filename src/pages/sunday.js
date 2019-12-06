@@ -18,8 +18,8 @@ const Menu = () => (
       </h4>
       <br/>
       <h2>Vill du boka bord?</h2>
-      <h4>Ring: <a href="tel:031140084">031 14 00 84</a></h4>
-      <h4>Eller maila: <a href="mailto:yalla_yalla@hotmail.se">yalla_yalla@hotmail.se</a></h4>
+      <h4>Ring: <a className='contact' href="tel:031140084">031 14 00 84</a></h4>
+      <h4>Eller maila: <a className='contact' href="mailto:yalla_yalla@hotmail.se">yalla_yalla@hotmail.se</a></h4>
     </div>
     <Tabs defaultActiveKey="1">
       <TabPane tab="Förrätt" key="1">

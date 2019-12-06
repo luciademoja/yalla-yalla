@@ -12,8 +12,8 @@ const Contacts = () => (
         Vi serverar de godaste Grekiska, Turkiska och Libanesiska maträtter.
       </h4>
       <br/>
-      <h4>Ring: <a href="tel:031140084">031 14 00 84</a></h4>
-      <h4>Eller maila: <a href="mailto:yalla_yalla@hotmail.se">yalla_yalla@hotmail.se</a></h4>
+      <h4>Ring: <a className='contact' href="tel:031140084">031 14 00 84</a></h4>
+      <h4>Eller maila: <a className='contact' href="mailto:yalla_yalla@hotmail.se">yalla_yalla@hotmail.se</a></h4>
       <h4>Vi finns på tredje Långgatan 29, 413 28 Göteborg.</h4>
       <ul className="openings">Öppettider:
         <li>Mån-tors 11:00 - 22:00</li>
