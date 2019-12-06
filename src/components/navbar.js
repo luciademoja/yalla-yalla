@@ -22,11 +22,6 @@ export class Navbar extends Component {
             Meny
           </Link>
         </Menu.Item>
-        <Menu.Item key="bar" style={{ color: 'white', fontFamily: 'monospace' }}>
-          <Link to="/bar">
-            Bar
-          </Link>
-        </Menu.Item>
         <Menu.Item key="booking" style={{ color: 'white', fontFamily: 'monospace' }}>
           <a href="https://www.thefork.com/restaurant/yalla-yalla-meze/464557" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
             Boka
@@ -35,11 +30,6 @@ export class Navbar extends Component {
         <Menu.Item key="contact" style={{ color: 'white', fontFamily: 'monospace' }}>
           <Link to="/contacts">
             Kontakt
-          </Link>
-        </Menu.Item>
-        <Menu.Item key="sunday" style={{ color: 'white', fontFamily: 'monospace' }}>
-          <Link to="/sunday">
-            Söndagsmiddag
           </Link>
         </Menu.Item>
       </Menu>
