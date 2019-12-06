@@ -37,6 +37,11 @@ export class Navbar extends Component {
             Kontakt
           </Link>
         </Menu.Item>
+        <Menu.Item key="sunday" style={{ color: 'white', fontFamily: 'monospace' }}>
+          <Link to="/sunday">
+            Söndagsmiddag
+          </Link>
+        </Menu.Item>
       </Menu>
     );
   }

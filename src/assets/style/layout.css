@@ -635,6 +635,10 @@ pre tt:after {
   border-bottom: 1px solid;
 }
 
+.ant-tabs-tab-prev-icon, .ant-tabs-tab-next-icon {
+  color: white;
+}
+
 .paidit {
   margin: auto;
   background: rgb(51,0,0);
