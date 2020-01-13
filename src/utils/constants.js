@@ -2,47 +2,47 @@ export const starters = [
   {
     name: 'Hummus',
     description: 'Krämig Kikärtspuré med Tahinne citron och olivolja.',
-    price: '60:-'
+    price: '69:-'
   },
   {
     name: 'Baba Ganoush',
     description: 'Grillad aubergineröra med Tahinne citron och olivolja.',
-    price: '65:-'
+    price: '69:-'
   },
   {
     name: 'Warak Inab',
     description: 'Dolmar av vindruvsblad fyllda med ris, serveras med tzatziki (vegetarisk).',
-    price: '60:-'
+    price: '65:-'
   },
   {
     name: 'Tabouleh',
     description: 'Fint hackad persilja, tomat, lök, berghol med citron och olivolja.',
-    price: '65:-'
+    price: '69:-'
   },
   {
     name: 'Fattosh',
     description: 'Blandad sallad, hackad tomat, paprika, gurka, lök, isbergssallad, citron, olivolja och rostat bröd.',
-    price: '65:-'
+    price: '69:-'
   },
   {
     name: 'Feta Tiganiti',
     description: 'Panerad och friterad fetaost.',
-    price: '65:-'
+    price: '69:-'
   },
   {
     name: 'Htipiti',
     description: 'Mix med fårost, starka kryddor paprika och vitlök. ',
-    price: '65:-'
+    price: '69:-'
   },
   {
     name: 'Grillad Halloumi',
     description: 'Grillad ost',
-    price: '65:-'
+    price: '69:-'
   },
   {
     name: 'Sambosek med ost',
     description: 'Friterade och fårostfyllda tunnbrödsrullar.',
-    price: '65:-'
+    price: '69:-'
   },
   {
     name: 'Sambosek med spenat',
@@ -57,7 +57,7 @@ export const starters = [
   {
     name: 'Jumbo Karides',
     description: 'Wokade Scampi med grönsaker, vitlök och starksås.',
-    price: '69:-'
+    price: '75:-'
   },
   {
     name: 'Calamari',
@@ -67,7 +67,7 @@ export const starters = [
   {
     name: 'Mhamrah',
     description: 'Paprika och valnötsröra, serveras med lite olivolja (lite stark).',
-    price: '65:-'
+    price: '69:-'
   },
   {
     name: 'Tzatziki',
@@ -77,7 +77,7 @@ export const starters = [
   {
     name: 'Kizartma',
     description: 'Grillad och skivad aubergine, squash & paprika serveras med tzatziki',
-    price: '60:-'
+    price: '69:-'
   },
   {
     name: 'Vitlöksbröd',
@@ -87,7 +87,7 @@ export const starters = [
   {
     name: 'Pikilia',
     description: 'Mixade Grekiska, Turkiska och Libanesiska smårätter (för två personer).',
-    price: '150:-'
+    price: '159:-'
   },
 ];
 
@@ -95,7 +95,7 @@ export const mainCourses = [
   {
     name: 'Paidakia',
     description: 'Grillade och vitlöksmarinerade lammracks med grillad tomat och tzatziki. Serveras med råstekt vitlökspotatis eller ris.',
-    price: '225:-'
+    price: '239:-'
   },
   {
     name: 'Shish Taouk',
@@ -110,12 +110,12 @@ export const mainCourses = [
   {
     name: 'Grillmix',
     description: 'Grillade kycklingspett, lamm på spett och oxfärsbiffar med tomatsås, tzatziki och grillade tomater. Serveras med råstekt vitlökspotatis eller ris.',
-    price: '225:-'
+    price: '235:-'
   },
   {
     name: 'Lahme Mishwiyi',
     description: 'Grillad lammytterfilé på spett serveras på bädd av wokade grönsaker med tomatsås, grillad tomat, grillad halloumiost, tzatziki. Serveras med råstekt vitlökspotatis eller ris.',
-    price: '235:-'
+    price: '239:-'
   },
   {
     name: 'Moussaka',
@@ -145,12 +145,12 @@ export const mainCourses = [
   {
     name: 'Grillmix Special',
     description: 'Grillad lammytterfilé, oxfilé, kycklingfilé med grillade grönsaker, tzatziki, hummus och tomatsås. Serveras med råstekt potatis eller ris.',
-    price: '239:-'
+    price: '249:-'
   },
   {
     name: 'Husets Pepparstek',
     description: 'Grillad oxfilé med wokade grönsaker och grön pepparsås, grillad tomat med varm broccoli och blomkål. Serveras med råstekt vitlökspotatis.',
-    price: '239:-'
+    price: '259:-'
   },
   {
     name: 'Husets Special',
@@ -160,7 +160,7 @@ export const mainCourses = [
   {
     name: 'Plankstek',
     description: 'Oxfilé på rykande het planka med brynta champinjoner, grillad tomat, blomkål och broccoli. Serveras med bearnaisesås och grönpepparsås.',
-    price: '239:-'
+    price: '259:-'
   }
 ];
 
@@ -178,7 +178,7 @@ export const fish = [
   {
     name: 'Scampi Provencal',
     description: 'Sauterade jätteräkor med vitvin, grädde, tomatsås, vitlök, citron & kryddor, serveras med wokade grönsaker och vitlökspotatis.',
-    price: '249:-'
+    price: '269:-'
   }
 ];
 
@@ -191,17 +191,17 @@ export const vegetarian = [
   {
     name: 'Vegansk Mezetallrik',
     description: 'Olika veganska rätter. Serveras med vitlökspotatis.',
-    price: '189:-'
+    price: '199:-'
   },
   {
     name: 'Sebzeli sote (Vegansk)',
     description: 'Grönsaksgryta med champinjoner, lök, paprika, tomat, auberginer, zucchini, och vitlök. Serveras med tzatziki, potatis eller ris.',
-    price: '175:-'
+    price: '179:-'
   },
   {
     name: 'Vegetarisk mezetallrik',
     description: 'Olika vegetariska rätter, serveras med vitlökspotatis.',
-    price: '189:-'
+    price: '199:-'
   }
 ];
 
@@ -209,22 +209,22 @@ export const kids = [
   {
     name: 'Grillad ryggbiff',
     description: 'Serveras med bernaisesås och pommes.',
-    price: '90:-'
+    price: '99:-'
   },
   {
     name: 'Grillade kycklingspett',
     description: 'Serveras med tzatziki och pommes eller ris.',
-    price: '90:-'
+    price: '99:-'
   },
   {
     name: 'Lammfärsytterfilé på spett',
     description: 'Serveras med tzatziki och pommes eller ris.',
-    price: '90:-'
+    price: '99:-'
   },
   {
     name: 'Grillade köttfärsbiffar',
     description: 'Serveras med tomatsås, tzatziki, potatis eller ris.',
-    price: '90:-'
+    price: '99:-'
   }
 ];
 
@@ -250,15 +250,15 @@ export const desserts = [
     price: '65:-'
   },
   {
-    name: 'Sorbet',
-    description: 'Serveras med frukt.',
-    price: '65:-'
-  },
-  {
     name: 'Fruktsallad',
     description: 'Fruktsallad',
     price: '65:-'
-  }
+  },
+  {
+    name: 'Gemar',
+    description: 'Hemlagad yogurt. Serveras med frukt och honung.',
+    price: '65:-'
+  },
 ];
 
 export const cans = [
@@ -305,7 +305,7 @@ export const beer = [
   {
     name: 'Alkoholfri Öl',
     description: '33cl',
-    price: '39:-'
+    price: '49:-'
   },
   {
     name: 'Carlsberg Hof',
@@ -320,12 +320,12 @@ export const beer = [
   {
     name: 'Mariestads Export',
     description: '50cl',
-    price: '65:-'
+    price: '69:-'
   },
   {
     name: 'Mariestads Dunkel',
     description: 'Mörk öl, 50cl',
-    price: '65:-'
+    price: '69:-'
   },
   {
     name: 'Mythos',
@@ -340,7 +340,12 @@ export const beer = [
   {
     name: 'Päroncider',
     description: 'Briska, 33cl',
-    price: '55:-'
+    price: '59:-'
+  },
+  {
+    name: 'Beirut',
+    description: '33cl',
+    price: '69:-'
   }
 ];
 
@@ -369,11 +374,6 @@ export const redWine = [
     name: 'Torre Del Falasco Valpolicella Ripasso (Italien,  Veneto)',
     description: 'Medelfylligt vin med smak av mörk frukt, choklad och lite mandel. Vinet har silkiga tanniner och lång aningens het eftersmak. Passar till grillat kött.',
     price: '349:-'
-  },
-  {
-    name: 'Riddle Creek Shiraz (Australiskt vin)',
-    description: 'Frisk, kryddig doft med inslag av röda bär och plommon. Mjukt, medelfylligt och fruktig smak av röda bär och angenäm läng. Passar utmärkt till grytor och rätter av lamm- eller nötkött.',
-    price: '399:-'
   }
 ];
 
@@ -391,11 +391,6 @@ export const whiteWine = [
   {
     name: 'Château Ksara Blanc De Blancs (Libanesiskt vin)',
     description: 'Stor kryddig doft med toner av citrus, färska örter och fat. Smaken är torr och medelfyllig med inslag av citrus, valnötter, lakritsrot och fat. Lång eftersmak.  Passar till förrätter och fiskrätter.',
-    price: '399:-'
-  },
-  {
-    name: 'Riddle Creek Chardonnay (Australiskt vin)',
-    description: 'Medelstor, frisk, torr aromatisk  smak av krusbär, svartvinbärsblad, nässlor, mineral, örter  och grapefrukt. Passar till fiskrätter och förrätter.',
     price: '399:-'
   }
 ];
@@ -479,23 +474,23 @@ export const coffeeDrinks = [
 export const coffee = [
   {
     name: 'Libanesiskt kaffe',
-    price: '38:- ',
+    price: '39:- ',
   },
   {
     name: 'Svenskt kaffe',
-    price: '30:- ',
+    price: '35:- ',
   },
   {
     name: 'Kaffe Latte',
-    price: '35:- ',
+    price: '39:- ',
   },
   {
     name: 'Cappuccino',
-    price: '35:- ',
+    price: '39:- ',
   },
   {
     name: 'Dubbel Espresso',
-    price: '35:- ',
+    price: '39:- ',
   },
   {
     name: 'Te i lösvikt',
@@ -551,6 +546,61 @@ export const sundayDessert = [
   },
   {
     name: 'Gemar',
+    description: 'Hemlagad yogurt. Serveras med frukt och honung.',
+  },
+];
+
+export const monday = [
+  {
+    name: 'Monday Food Meat',
+    description: 'Serveras med grädde och chokladsås.',
+  },
+  {
+    name: 'Monday Food Fish',
+    description: 'Hemlagad yogurt. Serveras med frukt och honung.',
+  },
+];
+
+export const tuesday = [
+  {
+    name: 'Tuesday Food Meat',
+    description: 'Serveras med grädde och chokladsås.',
+  },
+  {
+    name: 'Tuesday Food Fish',
+    description: 'Hemlagad yogurt. Serveras med frukt och honung.',
+  },
+];
+
+export const wednesday = [
+  {
+    name: 'Wednesday Food Meat',
+    description: 'Serveras med grädde och chokladsås.',
+  },
+  {
+    name: 'Wednesday Food Fish',
+    description: 'Hemlagad yogurt. Serveras med frukt och honung.',
+  },
+];
+
+export const thursday = [
+  {
+    name: 'Thursday Food Meat',
+    description: 'Serveras med grädde och chokladsås.',
+  },
+  {
+    name: 'Thursday Food Fish',
+    description: 'Hemlagad yogurt. Serveras med frukt och honung.',
+  },
+];
+
+export const friday = [
+  {
+    name: 'Friday Food Fish',
+    description: 'Serveras med grädde och chokladsås.',
+  },
+  {
+    name: 'Friday Food Fish',
     description: 'Hemlagad yogurt. Serveras med frukt och honung.',
   },
 ];
