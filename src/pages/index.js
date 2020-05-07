@@ -13,8 +13,7 @@ const IndexPage = () => {
         <Card title="Beställ online!" className='paidit'>
           <div className="card-content">
             <div>
-              Psst..! Visste du att du kan beställa de godaste maträtterna från medelhavet SNABBT, ENKELT och betala med SWISH?
-              Tryck på en av knapparna nedan för att beställa nu! &#127844;
+              Boka bord direkt via TheFork och få fantastiska erbjudande! &#127844;
             </div>
             <div className="paidit-buttons">
               <Button
@@ -23,17 +22,8 @@ const IndexPage = () => {
                 type="primary"
                 shape="round"
                 size="large"
-                href={'https://secure.paidit.se/yallayalla?takeaway=false'}
-              >Ät här!
-              </Button>
-              <Button
-                className="paidit-button"
-                target="_blank"
-                type="primary"
-                shape="round"
-                size="large"
-                href={'https://secure.paidit.se/yallayalla?takeaway=true'}
-              >Takeaway!
+                href={'https://www.thefork.com/restaurant/yalla-yalla-meze-r464557'}
+              >Boka nu!
               </Button>
             </div>
           </div>
