@@ -10,7 +10,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home"/>
       <div>
-        <Card title="Beställ online!" className='paidit'>
+        <Card title="Boka online!" className='paidit'>
           <div className="card-content">
             <div>
               Boka bord direkt via TheFork och få fantastiska erbjudande! &#127844;
