@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SingleMenu from "../components/singleMenu"
-import { cans, beer, redWine, whiteWine, roseWine, sparklingWine, drinks, coffeeDrinks, coffee } from "../utils/constants"
+import { cans, beer, redWine, whiteWine, roseWine, sparklingWine, cocktails, drinks, coffeeDrinks, coffee } from "../utils/constants"
 import { Tabs } from "antd"
 import PortraitImages from "../components/portraitImages"
 
@@ -30,6 +30,9 @@ const Menu = () => (
       </TabPane>
       <TabPane tab="Mousserande vin" key="6">
         <SingleMenu menu={sparklingWine}/>
+      </TabPane>
+      <TabPane tab="Cocktails" key="7">
+        <SingleMenu menu={cocktails}/>
       </TabPane>
       <TabPane tab="Drinkar" key="7">
         <SingleMenu menu={drinks}/>
