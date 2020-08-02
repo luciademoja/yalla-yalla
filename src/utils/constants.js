@@ -237,27 +237,22 @@ export const desserts = [
   {
     name: 'Camembert',
     description: 'Friterad Camembert med varm hjortronsylt och friterad persilja.',
-    price: '65:-'
-  },
-  {
-    name: 'Basma',
-    description: 'Libanesisk dessert som består av kataifi deg och ashta pudding (gräddpudding med rosenvatten), serveras med sockerlag.',
-    price: '69:-'
+    price: '60:-'
   },
   {
     name: 'Baklawa',
     description: 'Grek-Turkisk bakelse baserad på nötter & mjöl med glass.',
-    price: '65:-'
+    price: '60:-'
   },
   {
     name: 'Fruktsallad',
     description: 'Fruktsallad',
-    price: '65:-'
+    price: '60:-'
   },
   {
     name: 'Gemar',
     description: 'Hemlagad yogurt. Serveras med frukt och honung.',
-    price: '65:-'
+    price: '60:-'
   },
 ];
 
@@ -411,15 +406,37 @@ export const sparklingWine = [
   }
 ];
 
+export const cocktails = [
+  {
+    name: 'Lebanese Cosmo',
+    description: 'Vodka, granatäpplesyrup, tranbärsjuice',
+    price: '92:-',
+    otherPrice: '109:-'
+  },
+  {
+    name: 'Pomegranate Margarita',
+    description: 'Tequila, cointreau, granatäpplejuice, lime',
+    price: '92:-',
+    otherPrice: '109:-'
+  },
+  {
+    name: 'White Lady',
+    description: 'Gin, cointreau, sourmix, lime',
+    price: '92:-',
+    otherPrice: '109:-'
+  },
+  {
+    name: 'Apple Martini',
+    description: 'Vodka, sourz apple, limejuice',
+    price: '92:-',
+    otherPrice: '109:-'
+  }
+]
+
 export const drinks = [
   {
     name: 'Cosmopolitan',
     description: 'Citron vodka, Cointreau, lime & tranbärsjuice. 6cl',
-    price: '92:- '
-  },
-  {
-    name: 'White Lady',
-    description: 'Gin, Cointreau, lime & sourmix. 6cl',
     price: '92:- '
   },
   {
@@ -429,45 +446,82 @@ export const drinks = [
   },
   {
     name: 'Peach Passion',
-    description: 'Peach tree, Bacardi Limón & Sprite. 6cl',
+    description: 'Peachtree, Bacardi Limón & Sprite. 6cl',
     price: '92:- '
   },
   {
     name: 'Passion of Apple',
-    description: 'Vanilj Vodka, Sours Apple, Peach tree & Sprite. 6cl',
+    description: 'Vanilj Vodka, Sours Apple, Peachtree & Sprite. 6cl',
     price: '92:- '
   },
   {
     name: 'White Russian',
     description: 'Vodka, Kahlua & mjölk. 6cl',
     price: '92:- '
+  },
+  {
+    name: 'P2',
+    description: 'Vanilj vodka, sourz Apple, Sprite, lime. 6cl',
+    price: '92:-'
+  },
+  {
+    name: 'Tom Collins',
+    description: 'Gin, citronjuice, soda. 6cl',
+    price: '92:-'
+  },
+  {
+    name: 'San Fransisco',
+    description: 'Vodka, banan, apelsinjuice, grenadin. 6cl',
+    price: '92:-'
+  },
+  {
+    name: 'Sex on the beach',
+    description: 'Vodka, peachtree, apelsinjuice, tranbärsjuice. 6cl',
+    price: '92:-'
+  },
+  {
+    name: 'Razzgo',
+    description: 'Bacardi Razz, Sprite, lime. 6cv',
+    price: '92:-'
   }
 ];
 
 export const coffeeDrinks = [
   {
+    name: 'Arabien night',
+    description: 'Sahaleb, kaffe, calavados, kanel, grädde',
+    price: '78:-',
+    otherPrice: '92:-'
+  },
+  {
+    name: 'Leonard Sachs',
+    description: 'Grand Marnier, kalahua, grädde',
+    price: '78:-',
+    otherPrice: '92:-'
+  },
+  {
     name: 'Kaffe Kask',
     description: 'Kaffe, vodka & grädde.',
     price: '78:- ',
-    otherPrice: '92:-',
+    otherPrice: '92:-'
   },
   {
     name: 'French Coffee',
     description: 'Kaffe, cointreau & grädde.',
     price: '78:- ',
-    otherPrice: '92:- ',
+    otherPrice: '92:- '
   },
   {
     name: 'Irish Coffee',
     description: 'Kaffe, Jameson, farinsocker & grädde.',
     price: '78:- ',
-    otherPrice: '92:- ',
+    otherPrice: '92:- '
   },
   {
     name: 'Kaffe Karlsson',
     description: 'Kaffe, Baileys, Cointreau & grädde.',
     price: '78:- ',
-    otherPrice: '92:- ',
+    otherPrice: '92:- '
   },
 ];
 
