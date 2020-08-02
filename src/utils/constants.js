@@ -237,17 +237,17 @@ export const desserts = [
   {
     name: 'Camembert',
     description: 'Friterad Camembert med varm hjortronsylt och friterad persilja.',
-    price: '60:-'
+    price: '65:-'
   },
   {
     name: 'Baklawa',
     description: 'Grek-Turkisk bakelse baserad på nötter & mjöl med glass.',
-    price: '60:-'
+    price: '65:-'
   },
   {
     name: 'Fruktsallad',
     description: 'Fruktsallad',
-    price: '60:-'
+    price: '65:-'
   },
   {
     name: 'Gemar',
@@ -488,7 +488,7 @@ export const drinks = [
 
 export const coffeeDrinks = [
   {
-    name: 'Arabien night',
+    name: 'Arabian night',
     description: 'Sahaleb, kaffe, calavados, kanel, grädde',
     price: '78:-',
     otherPrice: '92:-'
