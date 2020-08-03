@@ -420,12 +420,6 @@ export const cocktails = [
     otherPrice: '109:-'
   },
   {
-    name: 'White Lady',
-    description: 'Gin, cointreau, sourmix, lime',
-    price: '92:-',
-    otherPrice: '109:-'
-  },
-  {
     name: 'Apple Martini',
     description: 'Vodka, sourz apple, limejuice',
     price: '92:-',
@@ -435,54 +429,40 @@ export const cocktails = [
 
 export const drinks = [
   {
-    name: 'Cosmopolitan',
-    description: 'Citron vodka, Cointreau, lime & tranbärsjuice. 6cl',
-    price: '92:- '
-  },
-  {
-    name: 'Seabreeze',
-    description: 'Vodka, tranbärsjuice & grapejuice. 6cl',
-    price: '92:- '
-  },
-  {
-    name: 'Peach Passion',
-    description: 'Peachtree, Bacardi Limón & Sprite. 6cl',
-    price: '92:- '
-  },
-  {
-    name: 'Passion of Apple',
-    description: 'Vanilj Vodka, Sours Apple, Peachtree & Sprite. 6cl',
-    price: '92:- '
-  },
-  {
     name: 'White Russian',
     description: 'Vodka, Kahlua & mjölk. 6cl',
-    price: '92:- '
+    price: '92:- ',
+    otherPrice: '109:-'
   },
   {
     name: 'P2',
     description: 'Vanilj vodka, sourz Apple, Sprite, lime. 6cl',
-    price: '92:-'
+    price: '92:-',
+    otherPrice: '109:-'
   },
   {
     name: 'Tom Collins',
     description: 'Gin, citronjuice, soda. 6cl',
-    price: '92:-'
+    price: '92:-',
+    otherPrice: '109:-'
   },
   {
     name: 'San Fransisco',
     description: 'Vodka, banan, apelsinjuice, grenadin. 6cl',
-    price: '92:-'
+    price: '92:-',
+    otherPrice: '109:-'
   },
   {
     name: 'Sex on the beach',
     description: 'Vodka, peachtree, apelsinjuice, tranbärsjuice. 6cl',
-    price: '92:-'
+    price: '92:-',
+    otherPrice: '109:-'
   },
   {
     name: 'Razzgo',
     description: 'Bacardi Razz, Sprite, lime. 6cv',
-    price: '92:-'
+    price: '92:-',
+    otherPrice: '109:-'
   }
 ];
 
@@ -490,38 +470,38 @@ export const coffeeDrinks = [
   {
     name: 'Arabian night',
     description: 'Sahaleb, kaffe, calavados, kanel, grädde',
-    price: '78:-',
-    otherPrice: '92:-'
+    price: '92:-',
+    otherPrice: '109:-'
   },
   {
     name: 'Leonard Sachs',
     description: 'Grand Marnier, kalahua, grädde',
-    price: '78:-',
-    otherPrice: '92:-'
+    price: '92:-',
+    otherPrice: '109:-'
   },
   {
     name: 'Kaffe Kask',
     description: 'Kaffe, vodka & grädde.',
-    price: '78:- ',
-    otherPrice: '92:-'
+    price: '92:-',
+    otherPrice: '109:-'
   },
   {
     name: 'French Coffee',
     description: 'Kaffe, cointreau & grädde.',
-    price: '78:- ',
-    otherPrice: '92:- '
+    price: '92:-',
+    otherPrice: '109:-'
   },
   {
     name: 'Irish Coffee',
     description: 'Kaffe, Jameson, farinsocker & grädde.',
-    price: '78:- ',
-    otherPrice: '92:- '
+    price: '92:-',
+    otherPrice: '109:-'
   },
   {
     name: 'Kaffe Karlsson',
     description: 'Kaffe, Baileys, Cointreau & grädde.',
-    price: '78:- ',
-    otherPrice: '92:- '
+    price: '92:-',
+    otherPrice: '109:-'
   },
 ];
 
