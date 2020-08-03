@@ -34,13 +34,13 @@ const Menu = () => (
       <TabPane tab="Cocktails" key="7">
         <SingleMenu menu={cocktails}/>
       </TabPane>
-      <TabPane tab="Drinkar" key="7">
+      <TabPane tab="Drinkar" key="8">
         <SingleMenu menu={drinks}/>
       </TabPane>
-      <TabPane tab="Kaffedrinkar" key="8">
+      <TabPane tab="Kaffedrinkar" key="9">
         <SingleMenu menu={coffeeDrinks}/>
       </TabPane>
-      <TabPane tab="Kaffe och te" key="9">
+      <TabPane tab="Kaffe och te" key="10">
         <SingleMenu menu={coffee}/>
       </TabPane>
     </Tabs>
