@@ -11,7 +11,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Menu Yalla Yalla"/>
       <div>
-        <Card title="Meny" className='paidit'>
+        <Card title="Meny" className='the-fork'>
           <div className="card-content-menu">
             <Link className="menu-link" to="/aLaCarte">
               À la carte

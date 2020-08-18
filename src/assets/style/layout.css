@@ -639,7 +639,7 @@ pre tt:after {
   color: white;
 }
 
-.paidit {
+.the-fork {
   margin: auto;
   background: rgb(51,0,0);
   background: linear-gradient(rgba(255,147,49,1) 0%, rgba(179,22,0,1) 100%);
@@ -698,12 +698,12 @@ pre tt:after {
   margin: auto;
 }
 
-.paidit-buttons {
+.the-fork-buttons {
   display: flex;
   justify-content: space-evenly;
 }
 
-.paidit-button {
+.the-fork-button {
   height: 100% !important;
   padding: 20px 48px !important;
   font-size: 35px !important;
