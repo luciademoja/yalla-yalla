@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SingleMenu from "../components/singleMenu"
-import { desserts, fish, kids, mainCourses, starters, vegetarian } from "../utils/constants"
+import { desserts, fish, mainCourses, starters, vegetarian } from "../utils/constants"
 import { Tabs } from "antd"
 
 const { TabPane } = Tabs;
@@ -23,9 +23,6 @@ const aLaCarte = () => (
       </TabPane>
       <TabPane tab="Vegetariska rätter" key="4">
         <SingleMenu menu={vegetarian}/>
-      </TabPane>
-      <TabPane tab="Barnmeny" key="5">
-        <SingleMenu menu={kids}/>
       </TabPane>
       <TabPane tab="Medelhavs dessert" key="6">
         <SingleMenu menu={desserts}/>

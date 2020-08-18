@@ -19,6 +19,9 @@ const IndexPage = () => {
             <Link className="menu-link" to="/sunday">
               Söndagsmiddag
             </Link>
+            <Link className="menu-link" to="/kids">
+              Barnmeny
+            </Link>
             <Link className="menu-link" to="/bar">
               Bar
             </Link>

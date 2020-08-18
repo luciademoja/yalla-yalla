@@ -639,13 +639,6 @@ pre tt:after {
   color: white;
 }
 
-.paidit {
-  margin: auto;
-  background: rgb(51,0,0);
-  background: linear-gradient(rgba(255,147,49,1) 0%, rgba(179,22,0,1) 100%);
-  color: white !important;
-}
-
 .ant-card-body {
   display: flex;
 }
@@ -698,20 +691,6 @@ pre tt:after {
   margin: auto;
 }
 
-.paidit-buttons {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.paidit-button {
-  height: 100% !important;
-  padding: 20px 48px !important;
-  font-size: 35px !important;
-  border-radius: 40px !important;
-  background: darkred !important;
-  border-color: black !important;
-}
-
 .ant-menu-item > a {
   color: white !important;
 }
@@ -752,6 +731,7 @@ pre tt:after {
 .ant-tabs-tab, .ant-tabs-tab-active {
   color: white !important;
   border-color: white !important;
+  margin: 0 20px !important;
 }
 
 .contact {
@@ -774,13 +754,6 @@ pre tt:after {
 
   .card-content > div {
     font-size: 15px;
-  }
-
-  .paidit-button {
-    height: 40px !important;
-    padding: 0 20px !important;
-    font-size: 18px !important;
-    border-radius: 40px !important;
   }
 
   .ant-menu {

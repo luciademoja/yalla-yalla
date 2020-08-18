@@ -13,7 +13,7 @@ const IndexPage = () => {
         <Card title="Boka online!" className='paidit'>
           <div className="card-content">
             <div>
-              Boka bord direkt via TheFork och få fantastiska erbjudande! &#127844;
+              Boka bord direkt via TheFork och få fantastiska erbjudande! <span role='img' aria-label='emoji shrimp'>&#127844;</span>
             </div>
             <div className="paidit-buttons">
               <Button
