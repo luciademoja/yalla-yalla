@@ -424,7 +424,13 @@ export const cocktails = [
     description: 'Vodka, sourz apple, limejuice',
     price: '92:-',
     otherPrice: '109:-'
-  }
+  },
+  {
+    name: 'White Lady',
+    description: 'Gin, Cointreau, lime & sourmix',
+    price: '92:- ',
+    otherPrice: '109:-',
+  },
 ]
 
 export const drinks = [
