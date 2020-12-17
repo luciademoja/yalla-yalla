@@ -16,8 +16,8 @@ const Contacts = () => (
       <h4>Eller maila: <a className='contact' href="mailto:yalla_yalla@hotmail.se">yalla_yalla@hotmail.se</a></h4>
       <h4>Vi finns på tredje Långgatan 29, 413 28 Göteborg.</h4>
       <ul className="openings">Öppettider:
-        <li>Mån-tors 15:00 - 21:00</li>
-        <li>Fredag 15:00 - 23:00</li>
+        <li>Mån-tors 16:00 - 21:00</li>
+        <li>Fredag 16:00 - 23:00</li>
         <li>Lördag 13:00 - 23:00</li>
         <li>Söndag 13:00- 21:00</li>
       </ul>

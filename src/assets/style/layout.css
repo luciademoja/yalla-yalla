@@ -639,7 +639,7 @@ pre tt:after {
   color: white;
 }
 
-.the-fork {
+.foodora {
   margin: auto;
   background: rgb(51,0,0);
   background: linear-gradient(rgba(255,147,49,1) 0%, rgba(179,22,0,1) 100%);
@@ -698,12 +698,12 @@ pre tt:after {
   margin: auto;
 }
 
-.the-fork-buttons {
+.foodora-buttons {
   display: flex;
   justify-content: space-evenly;
 }
 
-.the-fork-button {
+.foodora-button {
   height: 100% !important;
   padding: 20px 48px !important;
   font-size: 35px !important;
@@ -783,6 +783,10 @@ pre tt:after {
   .ant-carousel, .carousel-image {
     min-width: 0;
     max-width: 300px;
+  }
+
+  .foodora-button {
+    font-size: 25px !important;
   }
 
 }                                            

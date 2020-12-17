@@ -10,20 +10,20 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home"/>
       <div>
-        <Card title="Boka online!" className='the-fork'>
+        <Card title="Beställ online!" className='foodora'>
           <div className="card-content">
             <div>
-              Boka bord direkt via TheFork och få fantastiska erbjudande! <span role='img' aria-label='emoji shrimp'>&#127844;</span>
+              Beställ online på Foodora och få våra godaste maträtter hemlevererade! <span role='img' aria-label='emoji shrimp'>&#127844;</span>
             </div>
-            <div className="the-fork-buttons">
+            <div className="foodora-buttons">
               <Button
-                className="the-fork-button"
+                className="foodora-button"
                 target="_blank"
                 type="primary"
                 shape="round"
                 size="large"
-                href={'https://www.thefork.com/restaurant/yalla-yalla-meze-r464557'}
-              >Boka nu!
+                href={'https://www.foodora.se/en/restaurant/fz3h/yalla-yalla-meze-kok-och-bar?r=1'}
+              >Beställ nu!
               </Button>
             </div>
           </div>
