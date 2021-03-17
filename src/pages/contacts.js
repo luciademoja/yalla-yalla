@@ -15,10 +15,9 @@ const Contacts = () => (
       <h2>Välkommna!</h2>
       <Card title="Öppettider" className='foodora'>
         <ul className="openings">
-          <li>Måndag - Torsdag: Stängt</li>
-          <li>Fredag 16:00 - 23:00</li>
-          <li>Lördag 13:00 - 23:00</li>
-          <li>Söndag 13:00- 21:00</li>
+          <li>Måndag - Tisdag: Stängt</li>
+          <li>Onsdag - Fredag: 16:00 - 20:00</li>
+          <li>Lördag - Söndag: 13:00 - 20:00</li>
         </ul>
       </Card>
       <br/>
