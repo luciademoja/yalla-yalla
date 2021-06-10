@@ -13,6 +13,9 @@ const IndexPage = () => {
       <div>
         <Card title="Meny" className='foodora'>
           <div className="card-content-menu">
+            <Link className="menu-link" to="/dailyOffer">
+              Dagens erbjudande
+            </Link>
             <Link className="menu-link" to="/aLaCarte">
               À la carte
             </Link>
