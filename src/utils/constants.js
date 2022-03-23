@@ -55,11 +55,6 @@ export const starters = [
     price: '65:-'
   },
   {
-    name: 'Jumbo Karides',
-    description: 'Wokade Scampi med grönsaker, vitlök och starksås.',
-    price: '75:-'
-  },
-  {
     name: 'Calamari',
     description: 'Friterade calamari ringar serveras med tzatziki.',
     price: '69:-'
@@ -519,7 +514,7 @@ export const sundayMainCourse = [
   },
   {
     name: 'Grillmix',
-    description: 'Grillad kycklingfilé på spett, lamm på spett och kalvfärsbiffar serveras på bädd av wokade grönsaker med tomatsås, grillad tomat, tzatziki och vitlökspotatis eller ris.',
+    description: 'Grillad kycklingfilé på spett, lamm på spett och kalvfärsbiffar serveras med tomatsås, grillad tomat, tzatziki och vitlökspotatis eller ris.',
   },
   {
     name: 'Fiskgratäng',
@@ -530,9 +525,8 @@ export const sundayMainCourse = [
     description: 'Grekisk nationalrätt.',
   },
   {
-    name: 'Vegansk Mezetallrik',
-    description: 'Olika veganska rätter. Serveras med vitlökspotatis.',
-    price: '199:-'
+    name: 'Vegansk / Vegetarisk Mezetallrik',
+    description: 'Olika veganska eller vegetariska rätter. Serveras med vitlökspotatis.',
   }
 ];
 
