@@ -12,7 +12,7 @@ const Menu = () => (
   <Layout>
     <SEO title="Söndagsmiddag yalla yalla" />
     <div className="welcome">
-      <h2>Söndagsmiddag serveras varje söndag från kl 13:00 till kl 21:00 för bara 189:-. Välkomna!</h2>
+      <h2>Söndagsmiddag serveras varje söndag från kl 13:00 till kl 21:00 för bara 199:-. Välkomna!</h2>
       <h4>
         Välj en förrätt, en huvudrätt och en efterrätt från menyn.
       </h4>
