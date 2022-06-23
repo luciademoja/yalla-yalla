@@ -1,12 +1,12 @@
 export const starters = [
   {
     name: 'Hummus',
-    description: 'Krämig Kikärtspuré med Tahinne citron och olivolja.',
+    description: 'Krämig Kikärtspuré med Tahini citron och olivolja.',
     price: '69:-'
   },
   {
     name: 'Baba Ganoush',
-    description: 'Grillad aubergineröra med Tahinne citron och olivolja.',
+    description: 'Grillad aubergineröra med Tahini citron och olivolja.',
     price: '69:-'
   },
   {
@@ -99,7 +99,7 @@ export const mainCourses = [
   },
   {
     name: 'Lahme Mishwiyi',
-    description: 'Grillad lammytterfilé på spett serveras på bädd av wokade grönsaker med tomatsås, grillad tomat, grillad halloumiost, tzatziki. Serveras med råstekt vitlökspotatis eller ris.',
+    description: 'Grillad lammytterfilé på spett serveras på bädd av wokade grönsaker med tomatsås, grillad tomat, tzatziki. Serveras med råstekt vitlökspotatis eller ris.',
     price: '259:-'
   },
   {
@@ -109,7 +109,7 @@ export const mainCourses = [
   },
   {
     name: 'Pilic Tirit',
-    description: 'Grillad och marinerad kycklingfilé serveras på bädd av pitabröd med tzatziki, grillade tomater, tomatsås. Serveras med råstekt vitlökspotatis eller ris.',
+    description: 'Grillad och marinerad kycklingfilé serveras på bädd av Liba bröd med tzatziki, grillade tomater, tomatsås. Serveras med råstekt vitlökspotatis eller ris.',
     price: '199:-'
   },
   {
@@ -125,11 +125,11 @@ export const mainCourses = [
   {
     name: 'Grillmix Special',
     description: 'Grillad lammytterfilé, oxfilé, kycklingfilé, tzatziki, hummus och tomatsås. Serveras med råstekt potatis eller ris.',
-    price: '249:-'
+    price: '259:-'
   },
   {
     name: 'Husets Special',
-    description: 'Grillad oxfilé på spett med tzatziki, halloumi och hummus. Serveras med vitlökspotatis eller ris.',
+    description: 'Grillad oxfilé på spett med tzatziki och hummus. Serveras med vitlökspotatis eller ris.',
     price: '259:-'
   },
   {
@@ -147,7 +147,7 @@ export const fish = [
   },
   {
     name: 'Samke Bethine',
-    description: 'Stekt medelhavsfisk med tahinesås (sesampasta, citron, vitlök) serveras med råstekt vitlökspotatis samt nötter om så önskas.',
+    description: 'Stekt medelhavsfisk med tahinisås (sesampasta, citron, vitlök) serveras med råstekt vitlökspotatis samt nötter om så önskas.',
     price: '209:-'
   }
 ];
@@ -156,7 +156,7 @@ export const vegetarian = [
   {
     name: 'Vegetarisk Moussaka',
     description: 'Grekisk nationalrätt. Serveras med sallad och tzatziki.',
-    price: '169:-'
+    price: '175:-'
   },
   {
     name: 'Vegansk Mezetallrik',
@@ -392,32 +392,14 @@ export const drinks = [
     otherPrice: '109:-'
   },
   {
-    name: 'P2',
-    description: 'Vanilj vodka, sourz Apple, Sprite, lime. 6cl',
-    price: '92:-',
-    otherPrice: '109:-'
-  },
-  {
     name: 'Tom Collins',
     description: 'Gin, citronjuice, soda. 6cl',
     price: '92:-',
     otherPrice: '109:-'
   },
   {
-    name: 'San Fransisco',
-    description: 'Vodka, banan, apelsinjuice, grenadin. 6cl',
-    price: '92:-',
-    otherPrice: '109:-'
-  },
-  {
     name: 'Sex on the beach',
     description: 'Vodka, peachtree, apelsinjuice, tranbärsjuice. 6cl',
-    price: '92:-',
-    otherPrice: '109:-'
-  },
-  {
-    name: 'Razzgo',
-    description: 'Bacardi Razz, Sprite, lime. 6cv',
     price: '92:-',
     otherPrice: '109:-'
   }
@@ -427,24 +409,6 @@ export const coffeeDrinks = [
   {
     name: 'Arabian night',
     description: 'Sahaleb, kaffe, calavados, kanel, grädde',
-    price: '92:-',
-    otherPrice: '109:-'
-  },
-  {
-    name: 'Leonard Sachs',
-    description: 'Grand Marnier, kalahua, grädde',
-    price: '92:-',
-    otherPrice: '109:-'
-  },
-  {
-    name: 'Kaffe Kask',
-    description: 'Kaffe, vodka & grädde.',
-    price: '92:-',
-    otherPrice: '109:-'
-  },
-  {
-    name: 'French Coffee',
-    description: 'Kaffe, cointreau & grädde.',
     price: '92:-',
     otherPrice: '109:-'
   },
@@ -514,7 +478,7 @@ export const sundayMainCourse = [
   },
   {
     name: 'Grillmix',
-    description: 'Grillad kycklingfilé på spett, lamm på spett och kalvfärsbiffar serveras på bädd av wokade grönsaker med tomatsås, grillad tomat, tzatziki och vitlökspotatis eller ris.',
+    description: 'Grillad kycklingfilé på spett, lamm på spett och kalvfärsbiffar serveras med tomatsås, grillad tomat, tzatziki och vitlökspotatis eller ris.',
   },
   {
     name: 'Fiskgratäng',
