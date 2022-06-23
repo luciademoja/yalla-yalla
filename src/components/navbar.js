@@ -23,13 +23,13 @@ export class Navbar extends Component {
           </Link>
         </Menu.Item>
         <Menu.Item key="booking" style={{ color: 'white', fontFamily: 'monospace' }}>
-          <a href="https://www.thefork.com/restaurant/yalla-yalla-meze/464557" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
+          <Link to="/booking">
             Boka
-          </a>
+          </Link>
         </Menu.Item>
-        <Menu.Item key="contact" style={{ color: 'white', fontFamily: 'monospace' }}>
-          <Link to="/contacts">
-            Kontakt
+        <Menu.Item key="opening" style={{ color: 'white', fontFamily: 'monospace' }}>
+          <Link to="/opening">
+            Öppettider
           </Link>
         </Menu.Item>
       </Menu>
