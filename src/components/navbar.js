@@ -23,7 +23,7 @@ export class Navbar extends Component {
           </Link>
         </Menu.Item>
         <Menu.Item key="booking" style={{ color: 'white', fontFamily: 'monospace' }}>
-          <Link to="/booking">
+          <Link to="https://module.lafourchette.com/sv_SE/module/464557-2f2d0">
             Boka
           </Link>
         </Menu.Item>
