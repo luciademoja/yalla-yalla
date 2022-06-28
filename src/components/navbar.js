@@ -23,9 +23,9 @@ export class Navbar extends Component {
           </Link>
         </Menu.Item>
         <Menu.Item key="booking" style={{ color: 'white', fontFamily: 'monospace' }}>
-          <Link to="https://module.lafourchette.com/sv_SE/module/464557-2f2d0">
+          <a href="https://module.lafourchette.com/sv_SE/module/464557-2f2d0" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
             Boka
-          </Link>
+          </a>
         </Menu.Item>
         <Menu.Item key="opening" style={{ color: 'white', fontFamily: 'monospace' }}>
           <Link to="/opening">
